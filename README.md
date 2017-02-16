@@ -1,6 +1,7 @@
 # Power House
 
 Recruitment Test on Profiles and MeterReadings REST CRUD operations
+Database used : MongoDB.
 
 ## Build for production
 
@@ -28,6 +29,7 @@ API's of meterreadings,
 http://localhost:9090/api/uploadMeter -POST
 http://localhost:9090/api/meterreadings - GET
 http://localhost:9090/api/meterreadings/A - GET
+http://localhost:9090/api/meterreading/A/JAN - GET
 http://localhost:9090/api/meterreadings - DELETE
 
 Meter.postman_collection.json provide a list of API 
